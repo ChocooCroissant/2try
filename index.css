@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+body{
+    background: url(/img/whitebackground.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    padding: 30px 200px;
+}
+
+.h3 {
+	text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+    margin-bottom: 30px;
+}
+
+.image{
+    border: 5px solid silver;
+	min-width: 600px;
+	min-height: 600px;
+	border-radius: 30px;
+	background: url(/img/Obitoproject.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 2px 2px 20px black;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.p1 p{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+p{
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.list{
+	margin-bottom: 30px;
+	
+}
+
+.list li::before{
+	background: url(/img/for\ list.jfif);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.list li{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.list li:last-child{
+	text-decoration: line-through;
+	color: silver;
+}
+
+
+li{
+	padding-left: 20px;
+
+}
+
+.italic{
+	font-style: italic;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.a-btn{
+	box-shadow: 1px 1px 8px black;
+	display: inline-block;
+	background-color: rgb(216, 215, 215);
+	font-family: inherit;
+	border: 15px solid rgb(216, 215, 215);
+	border-radius: 20px;
+}
+
+.a-btn:hover{
+	box-shadow: 1px 1px 20px rgb(152, 93, 93);
+}
+
